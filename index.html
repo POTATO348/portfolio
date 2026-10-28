@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#0d1320" />
+<title>Anjenel G. Delumen — Portfolio</title>
+<link rel="icon" type="image/jpeg" href="delumss.jpg" />
+<link rel="apple-touch-icon" type="image/jpeg" href="delumss.jpg" />
+<link rel="preload" as="image" href="logo_nighy.jpg" />
+<link rel="preload" as="image" href="logi_light.jpg" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=timeline-reveal-1">
+</head>
+<body class="intro-active">
+
+<div class="intro-loader" id="introLoader" aria-label="Loading portfolio">
+  <div class="intro-loader-label mono">loading</div>
+  <div class="intro-loader-line" role="progressbar" aria-label="Loading portfolio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+  <img class="intro-loader-logo" id="introLoaderLogo" src="logo_nighy.jpg" data-dark="logo_nighy.jpg" data-light="logi_light.jpg" alt="" aria-hidden="true">
+</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand"><img id="themeLogo" class="brand-logo" src="logo_nighy.jpg" data-dark="logo_nighy.jpg" data-light="logi_light.jpg" alt="Anjenel Delumen logo"></div>
+    <ul class="navlinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#gallery">gallery</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle"><span class="dot" id="themeDot"></span><span id="themeLabel">dark</span></button>
+      <button class="burger" id="burgerBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-drawer">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <a href="#about">about</a>
+    <a href="#experience">experience</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#gallery">gallery</a>
+    <a href="#contact">contact</a>
+  </div>
+</div>
+
+<main class="wrap-full">
+
+  <section class="hero-banner" id="home">
+    <div class="hero-bg-clip">
+      <img class="hero-banner-img" src="ey.jpg" alt="" aria-hidden="true" onerror="this.src='https://placehold.co/1600x900/131c30/ffb454?text=Backdrop'">
+      <div class="hero-banner-overlay"></div>
+    </div>
+    <div class="hero-3d" aria-hidden="true">
+      <div class="cube-wrap cw1"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="cube-wrap cw2"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="cube-wrap cw3"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="cube-wrap cw4"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    </div>
+    <div class="hero-banner-content wrap">
+      <div class="hero-banner-text">
+        <div class="kicker">imus, cavite · philippines</div>
+        <h1 class="banner-name">ANJENEL G.<br>DELUMEN</h1>
+        <div class="role mono" id="typingRole"></div>
+        <div class="cta-row">
+          <a href="#contact" class="btn">Contact me</a>
+          <a href="cv.html" class="btn outline">View resume</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/anjenel-g-delumen-3b3202371/" target="_blank">LinkedIn ↗</a>
+          <a href="https://github.com/POTATO348" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-fly" id="heroFly">
+      <div class="hero-profile-card">
+        <img id="heroAvatar" src="delums.jpg" data-dark="delums.jpg" data-light="delums1.jpg" data-dark-hover="delums1.jpg" data-light-hover="delums.jpg" alt="Anjenel Delumen profile picture">
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+
+  <section id="about">
+    <div class="sec-head about-reveal"><span class="sec-num mono">01</span><h2 class="sec-title">About</h2><div class="sec-line"></div></div>
+    <div class="about-layout">
+    <div class="sheet reveal about-reveal">
+      <span class="c-bl"></span><span class="c-br"></span>
+      <h3>About me</h3>
+      <p><span class="about-photo-slot is-inline" aria-hidden="true"><img alt=""></span>Hi, I’m Anjenel Delumen, a fresh graduate with a Bachelor’s degree in Computer Science. I am currently seeking opportunities as a Mobile Application Developer, Front-End Developer, UI/UX Designer, or IT Technician. I have developed skills in mobile application development, front-end web development, UI/UX design, and technical troubleshooting through my academic projects and internship experience.<br><br>I am a hardworking, responsible, and adaptable individual who is eager to apply my knowledge in a professional environment. I am willing to learn new technologies, expand my skills and experience, collaborate with a team, and contribute to the success of the organization while continuously growing as a technology professional.</p>
+    </div>
+    <div class="about-slot" id="aboutSlot" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="sec-head"><span class="sec-num mono">02</span><h2 class="sec-title">Education</h2><div class="sec-line"></div></div>
+    <div class="sheet reveal">
+      <span class="c-bl"></span><span class="c-br"></span>
+        <h3>Education</h3>
+        <div class="timeline-item"><strong>Bachelor of Science in Computer Science</strong><br>Philippine Christian University – Dasmariñas<br><span class="tag mono">Graduated: 2026</span></div>
+        <div class="timeline-item"><strong>Senior High School</strong> — Unida Christian Colleges (2020–2022)</div>
+        <div class="timeline-item"><strong>Junior High School</strong> — Saint Simon of Cyrene Academy, Inc (2016–2020)</div>
+        <div class="achv-head mono">achievements</div>
+        <div class="timeline-item" style="margin-top:12px;"><strong>Dean's Lister</strong> — S.Y. 2022–2023<br><span class="tag mono">GWA: 1.48</span></div>
+        <div class="timeline-item"><strong>San Isidro Institute of Carmona, Inc</strong><br>S.Y. 2014–2016 — Honors</div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="sec-head"><span class="sec-num mono">03</span><h2 class="sec-title">Certifications</h2><div class="sec-line"></div></div>
+    <div class="cert-carousel">
+    <div class="grid-3" id="certGrid" role="region" aria-roledescription="carousel" aria-label="Certifications">
+      <div class="cert-card reveal" onclick="openCertModal('cyber.jpg','Cisco Networking CyberSecurity')">
+        <img src="cyber.jpg" alt="CyberSecurity Certification" onerror="this.src='https://placehold.co/400x300/131c30/ffb454?text=CyberSecurity'">
+        <div class="cert-info"><strong>Cisco Networking CyberSecurity</strong><p class="click-hint">click/tap to view · swipe to browse</p></div>
+      </div>
+      <div class="cert-card reveal" onclick="openCertModal('machine.jpg','Machine Learning Quiz')">
+        <img src="machine.jpg" alt="Machine Learning Certification" onerror="this.src='https://placehold.co/400x300/131c30/ffb454?text=Machine+Learning'">
+        <div class="cert-info"><strong>Machine Learning Exam</strong><p class="click-hint">click/tap to view · swipe to browse</p></div>
+      </div>
+      <div class="cert-card reveal" onclick="openCertModal('apptrain.jpg','Mobile Android Application Developer Online Training')">
+        <img src="apptrain.jpg" alt="Mobile Android Application Developer Certification" onerror="this.src='https://placehold.co/400x300/131c30/ffb454?text=Android+Developer'">
+        <div class="cert-info"><strong>Mobile Android App Developer Training</strong><p class="click-hint">click/tap to view · swipe to browse</p></div>
+      </div>
+      <div class="cert-card reveal" onclick="openCertModal('ai prompts.jpg','DICT AI Prompts 101')">
+        <img src="ai prompts.jpg" alt="DICT AI Prompts 101" onerror="this.src='https://placehold.co/400x300/131c30/ffb454?text=DICT+AI+Prompts'">
+        <div class="cert-info"><strong>DICT AI Prompts 101</strong><p class="click-hint">click/tap to view · swipe to browse</p></div>
+      </div>
+      <div class="cert-card reveal" onclick="openCertModal('DICT.png','Introduction of Data Privacy Act')">
+        <img src="DICT.png" alt="Introduction of Data Privacy Act certificate" onerror="this.src='https://placehold.co/400x300/131c30/ffb454?text=Data+Privacy+Act'">
+        <div class="cert-info"><strong>Introduction of Data Privacy Act</strong><p class="click-hint">click/tap to view · swipe to browse</p></div>
+      </div>
+      <div class="cert-card reveal" onclick="openCertModal('ai.jpg','AI Class ASEAN')">
+        <img src="ai.jpg" alt="AI Class ASEAN" onerror="this.src='https://placehold.co/400x300/131c30/ffb454?text=AI+Class+ASEAN'">
+        <div class="cert-info"><strong>AI Class ASEAN</strong><p class="click-hint">click/tap to view · swipe to browse</p></div>
+      </div>
+    </div>
+    <p class="cert-swipe-hint mono">swipe to browse certifications</p>
+    </div>
+  </section>
+
+  <section id="trainings">
+    <div class="sec-head"><span class="sec-num mono">04</span><h2 class="sec-title">Trainings attended</h2><div class="sec-line"></div></div>
+    <div class="sheet reveal"><span class="c-bl"></span><span class="c-br"></span>
+      <div class="train-row"><div><strong>AWScend Beyond Limits</strong><br><span style="color:var(--dim); font-size:.88rem;">Define Your Domain, Elevate Your Resume</span></div><div class="yr mono">2025</div></div>
+      <div class="train-row"><div><strong>DICT</strong><br><span style="color:var(--dim); font-size:.88rem;">Webinar on AI Prompts 101</span></div><div class="yr mono">2026</div></div>
+      <div class="train-row"><div><strong>Department of Information and Communications Technology (DICT)</strong><br><span style="color:var(--dim); font-size:.88rem;">Introduction of Data Privacy Act</span></div><div class="yr mono">2026</div></div>
+      <div class="train-row"><div><strong>Studygaan.com</strong><br><span style="color:var(--dim); font-size:.88rem;">Mobile Application Developing Training</span></div><div class="yr mono">2026</div></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="sec-head"><span class="sec-num mono">05</span><h2 class="sec-title">Work Experience</h2><div class="sec-line"></div></div>
+    <div class="sheet reveal"><span class="c-bl"></span><span class="c-br"></span>
+      <h3>Urban Travellers Hotel · OJT Program</h3>
+      <div class="work-date mono">February 2026 – May 2026</div>
+      <div class="experience-timeline">
+        <div class="job-entry">
+          <div class="job-title">IT Intern</div>
+          <ul class="experience-list">
+            <li>Provided technical support for hotel staff, troubleshooting hardware and software issues.</li>
+            <li>Collaborated with IT team to resolve network connectivity issues and documented IT procedures.</li>
+          </ul>
+        </div>
+        <div class="job-entry">
+          <div class="job-title">Front-End Developer</div>
+          <ul class="experience-list">
+            <li>Developed front-end components improving UI responsiveness by 30%.</li>
+            <li>Built interactive web interfaces using HTML, CSS, and JavaScript for guest-facing platforms.</li>
+            <li>Implemented version control using Git and collaborated with back-end developers.</li>
+          </ul>
+        </div>
+        <div class="job-entry">
+          <div class="job-title">UI/UX Designer</div>
+          <ul class="experience-list">
+            <li>Designed wireframes and high-fidelity prototypes using Figma for front-end platforms.</li>
+            <li>Conducted user research and usability testing, improving task success by 25%.</li>
+            <li>Created design systems and component libraries for visual consistency.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="sec-head"><span class="sec-num mono">06</span><h2 class="sec-title">Technical Skills</h2><div class="sec-line"></div></div>
+    <div class="skills-carousel">
+    <div class="skills-grid" id="skillsGrid" role="region" aria-roledescription="carousel" aria-label="Technical skill categories">
+      <div class="skill-cat reveal"><h3>Programming Languages</h3>
+        <div class="skill-row"><div class="skill-label"><span>HTML</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>CSS</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>JavaScript</span><span>80%</span></div><div class="ruler"><div class="ruler-fill" data-w="80%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Java</span><span>70%</span></div><div class="ruler"><div class="ruler-fill" data-w="70%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Kotlin</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+      </div>
+      <div class="skill-cat reveal"><h3>Mobile Development</h3>
+        <div class="skill-row"><div class="skill-label"><span>Kotlin</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Java</span><span>70%</span></div><div class="ruler"><div class="ruler-fill" data-w="70%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Android XML</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>SQLite</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Firebase</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+      </div>
+      <div class="skill-cat reveal"><h3>Front-End Development</h3>
+        <div class="skill-row"><div class="skill-label"><span>Responsive Web Design</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>React.js</span><span>80%</span></div><div class="ruler"><div class="ruler-fill" data-w="80%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Node.js</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>REST API</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+      </div>
+      <div class="skill-cat reveal"><h3>UI/UX Design</h3>
+        <div class="skill-row"><div class="skill-label"><span>Figma</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Wireframing</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Prototyping</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>User Research</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Usability Testing</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+      </div>
+      <div class="skill-cat reveal"><h3>Tools &amp; Software</h3>
+        <div class="skill-row"><div class="skill-label"><span>Git &amp; GitHub</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>VS Code</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Android Studio</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>XAMPP</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Postman</span><span>80%</span></div><div class="ruler"><div class="ruler-fill" data-w="80%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Vercel</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+      </div>
+      <div class="skill-cat reveal"><h3>IT &amp; Networking</h3>
+        <div class="skill-row"><div class="skill-label"><span>Basic Troubleshooting</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Network Config</span><span>80%</span></div><div class="ruler"><div class="ruler-fill" data-w="80%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Hardware Install</span><span>80%</span></div><div class="ruler"><div class="ruler-fill" data-w="80%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>Printer Maintenance</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+        <div class="skill-row"><div class="skill-label"><span>System Maintenance</span><span>90%</span></div><div class="ruler"><div class="ruler-fill" data-w="90%"></div></div></div>
+      </div>
+    </div>
+    <p class="skill-swipe-hint mono">swipe to browse skill categories</p>
+    </div>
+
+    <div class="sheet reveal" style="margin-top:24px;"><span class="c-bl"></span><span class="c-br"></span>
+      <h3>Soft skills</h3>
+      <ul class="soft-list">
+        <li>Problem-solving and analytical thinking</li>
+        <li>Critical thinking and decision-making</li>
+        <li>Strong team collaboration and interpersonal skills</li>
+        <li>Effective time management and organizational skills</li>
+        <li>Willingness to learn and adapt to new challenges</li>
+        <li>Proficient in Microsoft Excel, Word, and PowerPoint</li>
+        <li>Proficient in Canva for creating presentations and visual materials</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="sec-head"><span class="sec-num mono">07</span><h2 class="sec-title">Projects</h2><div class="sec-line"></div></div>
+    <div class="grid-3">
+      <div class="proj-card reveal">
+        <div class="proj-img" style="background-image:url('gym.jpg.png')"></div>
+        <div class="proj-body">
+          <div class="proj-title">Royale Fitness Center</div>
+          <div class="proj-desc">Full-stack web app for gym membership &amp; appointment management. Built with the MERN stack.</div>
+          <div class="proj-role mono">role: full stack developer</div>
+          <div class="proj-links"><a href="#">GitHub</a><a href="https://royale-fitness-booking.vercel.app/index.html" target="_blank">Demo ↗</a></div>
+        </div>
+      </div>
+      <div class="proj-card reveal">
+        <div class="proj-img" style="background-image:url('list.png')"></div>
+        <div class="proj-body">
+          <div class="proj-title">Website BookList</div>
+          <div class="proj-desc">Web app to save and organize website links with persistent local storage.</div>
+          <div class="proj-role mono">role: full stack developer</div>
+          <div class="proj-links"><a href="#">GitHub</a><a href="https://website-booklist.vercel.app/" target="_blank">Demo ↗</a></div>
+        </div>
+      </div>
+      <div class="proj-card reveal">
+        <div class="proj-img" style="background-image:url('app.jpg')"></div>
+        <div class="proj-body">
+          <div class="proj-title">IRIS Scanner Mobile</div>
+          <div class="proj-desc">Android app featuring OCR text recognition and ISBN barcode scanning for books.</div>
+          <div class="proj-role mono">role: mobile full stack developer</div>
+          <div class="proj-links"><button class="view-btn" onclick="openShots(irisShots,'IRIS Scanner')">📸 View screenshots</button></div>
+        </div>
+      </div>
+      <div class="proj-card reveal">
+        <div class="proj-img" style="background-image:url('hris.jpg'); background-color:#0a0f1a;"></div>
+        <div class="proj-body">
+          <div class="proj-title">HRIS Timekeeping System</div>
+          <div class="proj-desc">Employee time tracking and attendance monitoring system.</div>
+          <div class="proj-role mono">role: front-end developer</div>
+          <div class="proj-links"><button class="view-btn" onclick="openShots(hrisShots,'HRIS Timekeeping')">📸 View screenshots</button></div>
+        </div>
+      </div>
+      <div class="proj-card reveal">
+        <div class="proj-img" style="background-image:url('iris.jpg')"></div>
+        <div class="proj-body">
+          <div class="proj-title">I-RIS Website</div>
+          <div class="proj-desc">Book display system from scan, with admin/owner stock in-out monitoring from suppliers and cashier management.</div>
+          <div class="proj-role mono">role: front-end developer</div>
+          <div class="proj-links"><a href="https://i-ris-ph.helioho.st/" target="_blank">I-RIS Bookstore ↗</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="sec-head"><span class="sec-num mono">08</span><h2 class="sec-title">Gallery</h2><div class="sec-line"></div></div>
+    <div class="gallery-wrap">
+      <div class="gallery-track" id="galleryTrack">
+        <!-- populated by JS from galleryImgs, duplicated for seamless loop -->
+      </div>
+    </div>
+    <div class="gallery-hint mono">hover to pause · click any image to view full size</div>
+  </section>
+
+  <section id="contact">
+    <div class="sec-head"><span class="sec-num mono">09</span><h2 class="sec-title">Contact</h2><div class="sec-line"></div></div>
+    <div class="contact-grid">
+      <div class="contact-info sheet"><span class="c-bl"></span><span class="c-br"></span>
+        <h3>Let's build something</h3>
+        <p>Open to roles in mobile development, front-end development, UI/UX design, or IT support. Based in Imus, Cavite, Philippines — open to remote and on-site opportunities.</p>
+        <p>Email: <a href="mailto:delumenanjenel@gmail.com">delumenanjenel@gmail.com</a></p>
+      </div>
+      <form class="contact-form sheet" action="https://formsubmit.co/delumenanjenel@gmail.com" method="POST">
+        <span class="c-bl"></span><span class="c-br"></span>
+        <input type="text" name="name" placeholder="Full name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <textarea rows="5" name="message" placeholder="Tell me about your opportunity..."></textarea>
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  </div>
+</main>
+
+
+<!-- image / cert modal -->
+<div id="viewModal" class="modal">
+  <button class="modal-close" id="modalClose">✕</button>
+  <button class="modal-nav-btn modal-prev" id="modalPrev">◀</button>
+  <button class="modal-nav-btn modal-next" id="modalNext">▶</button>
+  <img id="modalImg" src="" alt="">
+  <div class="modal-caption" id="modalCaption"></div>
+</div>
+
+<!-- chatbot -->
+<div class="chat-widget">
+  <button class="chat-toggle" id="chatToggle" aria-label="Chat with Anjenel" title="Chat with Anjenel"><span class="chat-icon" aria-hidden="true"></span></button>
+  <div class="chat-box hidden" id="chatBox">
+    <div class="chat-head">
+      <div class="chat-profile">
+        <div class="chat-avatar-wrap">
+          <img class="chat-avatar" src="delums1.jpg" alt="Anjenel Delumen">
+          <span class="chat-online" aria-label="Online"></span>
+        </div>
+        <h4>AI assistant · ask about Anjenel</h4>
+      </div>
+      <button id="chatClose" aria-label="Close chat">✕</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg bot">Hi! I'm Anjenel's AI assistant. Ask me about skills, experience, projects, education, or how to get in touch.</div>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" placeholder="Ask me something...">
+      <button id="chatSend">Send</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js?v=timeline-reveal-1" defer></script>
+<script src="3d.js?v=photo-fly" defer></script>
+<script src="Photo-scroll.js?v=mobile-photo-fix" defer></script>
+<script type="module" src="city-background.js?v=scroll-city"></script>
+</body>
+</html>
